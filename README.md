@@ -5,7 +5,7 @@ Hệ thống website bán nick game được xây dựng với React JS, React R
 ## Cấu trúc dự án
 
 ```
-prj_em huy/
+prj/
 ├── client/          # Frontend React App
 │   └── src/
 │       ├── components/
