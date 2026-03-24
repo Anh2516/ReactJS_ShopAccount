@@ -10,11 +10,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f5f5;
+  background: radial-gradient(circle at top, #1f2a44 0%, #10172b 40%, #0a1020 100%);
+  color: #e6edf7;
 }
 
 .App {
   min-height: 100vh;
+}
+
+a {
+  color: #8ab4ff;
+}
+
+a:hover {
+  color: #b7ceff;
 }
 
 code {

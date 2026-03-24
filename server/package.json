@@ -12,6 +12,7 @@
     "migrate-balance": "node scripts/addBalanceColumn.js",
     "migrate-customer-code": "node scripts/addCustomerCodeAndTopupTable.js",
     "migrate-featured-image": "node scripts/addFeaturedImageColumn.js",
+    "migrate-featured-image-expand": "node scripts/expandFeaturedImageColumn.js",
     "migrate-expand-decimal": "node scripts/expandDecimalColumns.js",
     "migrate-import-price": "node scripts/addImportPriceColumn.js",
     "remove-unused-games": "node scripts/removeUnusedGames.js",

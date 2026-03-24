@@ -445,3 +445,35 @@
   color: #7f8c8d;
 }
 
+/* Theme override */
+.orders {
+  color: #e6edf7;
+}
+
+.orders h1,
+.order-header h3,
+.detail-section h3,
+.modal-header h2 {
+  color: #f8fbff;
+}
+
+.empty-orders,
+.order-card,
+.order-detail-modal,
+.modal-header,
+.modal-footer,
+.detail-info-item,
+.account-info-box,
+.account-detail-box,
+.account-info-display {
+  background: linear-gradient(160deg, rgba(35, 46, 84, 0.95) 0%, rgba(23, 31, 59, 0.98) 100%);
+  border-color: rgba(122, 153, 255, 0.24);
+  color: #e6edf7;
+}
+
+.order-info p,
+.detail-label,
+.detail-value {
+  color: #c7d5e8;
+}
+

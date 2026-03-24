@@ -125,7 +125,7 @@ const Wallet = () => {
     // URL này sẽ được hiển thị dưới dạng QR code image từ VietQR API
     const encodedAmount = encodeURIComponent(amount.toString());
     const encodedCustomerCode = encodeURIComponent(customerCode);
-    return `https://img.vietqr.io/image/techcombank-19073286641014-compact2.jpg?amount=${encodedAmount}&addInfo=${encodedCustomerCode}&accountName=Vu%20Gia%20Huy`;
+    return `https://img.vietqr.io/image/vietinbank-103883177826-compact2.jpg?amount=${encodedAmount}&addInfo=${encodedCustomerCode}&accountName=Trinh%20Minh%20Phuc`;
   };
 
   const quickAmounts = [50000, 100000, 200000, 500000, 1000000];
@@ -256,9 +256,9 @@ const Wallet = () => {
                   fontSize: '1.1rem',
                   fontWeight: 'bold'
                 }}>{currentRequest.customer_code}</code></p>
-                <p><strong>Ngân hàng:</strong> Techcombank</p>
-                <p><strong>Số tài khoản:</strong> 19073286641014</p>
-                <p><strong>Chủ tài khoản:</strong> Vu Gia Huy</p>
+                <p><strong>Ngân hàng:</strong> Vietinbank</p>
+                <p><strong>Số tài khoản:</strong> 103883177826</p>
+                <p><strong>Chủ tài khoản:</strong> TRINH MINH PHUC</p>
                 <p className="qr-note">⚠️ Vui lòng nhập đúng nội dung chuyển khoản là mã khách hàng của bạn khi chuyển tiền</p>
               </div>
               <div className="qr-code-container">

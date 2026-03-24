@@ -1,21 +1,23 @@
 .wallet-page {
   min-height: calc(100vh - 200px);
   padding: 40px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: transparent;
 }
 
 .wallet-container {
   max-width: 800px;
   margin: 0 auto;
-  background: white;
+  background: linear-gradient(160deg, rgba(35, 46, 84, 0.95) 0%, rgba(23, 31, 59, 0.98) 100%);
+  color: #e6edf7;
   border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(122, 153, 255, 0.24);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.28);
 }
 
 .wallet-container h1 {
   text-align: center;
-  color: #333;
+  color: #f8fbff;
   margin-bottom: 30px;
   font-size: 2rem;
 }
@@ -47,7 +49,7 @@
 }
 
 .topup-section h2 {
-  color: #333;
+  color: #f8fbff;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
@@ -66,13 +68,15 @@
 
 .form-group label {
   font-weight: 600;
-  color: #555;
+  color: #d7e3f5;
   font-size: 0.95rem;
 }
 
 .form-group input {
   padding: 12px 16px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #e6edf7;
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s;
@@ -84,7 +88,7 @@
 }
 
 .form-group input:disabled {
-  background-color: #f5f5f5;
+  background-color: rgba(255, 255, 255, 0.08);
   cursor: not-allowed;
 }
 
@@ -96,7 +100,7 @@
 
 .quick-amounts label {
   font-weight: 600;
-  color: #555;
+  color: #d7e3f5;
   font-size: 0.95rem;
 }
 
@@ -109,7 +113,7 @@
 .quick-amount-btn {
   padding: 10px 20px;
   border: 2px solid #667eea;
-  background: white;
+  background: rgba(255, 255, 255, 0.08);
   color: #667eea;
   border-radius: 8px;
   cursor: pointer;
@@ -161,14 +165,14 @@
 }
 
 .wallet-info {
-  background: #f8f9fa;
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 12px;
   padding: 24px;
   margin-top: 30px;
 }
 
 .wallet-info h3 {
-  color: #333;
+  color: #f8fbff;
   margin-bottom: 15px;
   font-size: 1.2rem;
 }
@@ -183,7 +187,7 @@
   padding: 8px 0;
   padding-left: 24px;
   position: relative;
-  color: #666;
+  color: #c7d5e8;
   line-height: 1.6;
 }
 
@@ -208,7 +212,7 @@
 }
 
 .topup-history h2 {
-  color: #333;
+  color: #f8fbff;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
@@ -220,7 +224,7 @@
 }
 
 .request-item {
-  background: #f8f9fa;
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   padding: 16px;
   display: flex;
@@ -251,19 +255,19 @@
 .request-amount {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #333;
+  color: #f8fbff;
   margin-bottom: 4px;
 }
 
 .request-date {
   font-size: 0.9rem;
-  color: #666;
+  color: #c7d5e8;
   margin-bottom: 4px;
 }
 
 .request-code {
   font-size: 0.85rem;
-  color: #888;
+  color: #c7d5e8;
   font-family: monospace;
 }
 

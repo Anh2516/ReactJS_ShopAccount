@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS products (
   price DECIMAL(20, 2) NOT NULL,
   description TEXT,
   account_info TEXT,
-  featured_image VARCHAR(500) DEFAULT NULL COMMENT 'URL of featured/thumbnail image for product card',
+  featured_image TEXT DEFAULT NULL COMMENT 'URL of featured/thumbnail image for product card',
   images TEXT DEFAULT NULL COMMENT 'JSON array of image URLs',
   status ENUM('available', 'sold', 'pending') DEFAULT 'available',
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
